@@ -19,7 +19,6 @@ nav {
     transition: background-color 0.3s ease;
     background-color: white;
     z-index: 10000;
-
 }
 
 nav.scrolled-color {
@@ -489,7 +488,7 @@ footer div {
     }
 
     header {
-        margin-top: 70px;
+        margin-top: 0;
     }
 
     swiper-slide {
