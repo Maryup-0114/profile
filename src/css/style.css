@@ -333,7 +333,12 @@ swiper-container {
 }
 
 .content-services {
+    display: block;
     width: 100%;
+}
+
+.content-services-mobile {
+    display: none;
 }
 
 .services-info h2 {
@@ -426,9 +431,11 @@ footer div {
     justify-content: center;
     align-items: center;
 }
-.scroll-up img{
+
+.scroll-up img {
     width: 30px;
 }
+
 .scroll-up:hover {
     opacity: 1;
 }
@@ -530,6 +537,10 @@ footer div {
         z-index: 100;
     }
 
+    .height {
+        height: 310px;
+    }
+
     .about-title {
         z-index: 1;
     }
@@ -569,7 +580,14 @@ footer div {
     .services {
         margin-top: 10px;
     }
-
+    .content-services {
+        display: none;
+    }
+    
+    .content-services-mobile {
+        width: 100%;
+        display: block;
+    }
     .services .pattern-image {
         display: none;
     }
